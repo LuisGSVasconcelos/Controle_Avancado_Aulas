@@ -10,7 +10,7 @@ Utilizaremos um modelo linearizado de primeira ordem com atraso (FOPDT) represen
 
 #### Ganho estático 
 $$
-Kp = 2.0  °C/(m³/h)
+Kp = 2.0  \frac{°C}{(m³/h)}
 $$
 
 #### Constante de tempo 
