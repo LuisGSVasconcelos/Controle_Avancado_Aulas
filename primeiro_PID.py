@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 from scipy.signal import lti, step, lsim
 from control import tf, pade, feedback, step_response
 
+#  Simulação de um sistema de controle de temperatura com atraso usando um controlador PID
+
 # Modelo FOPDT com atraso
 Kp = 2.0
 tau = 5.0
