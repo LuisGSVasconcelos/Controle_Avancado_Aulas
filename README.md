@@ -8,13 +8,8 @@ Utilizaremos um modelo linearizado de primeira ordem com atraso (FOPDT) represen
 
 Parâmetros típicos:
 
-Ganho estático 
-K
-p
-=
-2.0
- 
-°C/(m³/h)
+### Ganho estático 
+Kp = 2.0  °C/(m³/h)
 K 
 p
 ​
