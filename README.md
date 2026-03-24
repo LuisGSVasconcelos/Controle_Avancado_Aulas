@@ -6,15 +6,15 @@ Cenário: Controle de Temperatura de um CSTR com Atraso
 
 Utilizaremos um modelo linearizado de primeira ordem com atraso (FOPDT) representando a dinâmica entre a vazão de fluido refrigerante e a temperatura do reator. 
 
-Parâmetros típicos:
+###Parâmetros típicos:
 
-### Ganho estático 
+#### Ganho estático 
 Kp = 2.0  °C/(m³/h)
 
-### Constante de tempo 
+#### Constante de tempo 
 τ = 5 min
 
-### Atraso de transporte 
+#### Atraso de transporte 
 θ = 2 min
 
 ### Função de transferência:
@@ -35,7 +35,7 @@ G(s)=
  e 
 −2s
  
-Passos da Simulação
+### Passos da Simulação
 Definir o modelo usando a biblioteca control (função tf e pade para aproximar o atraso).
 
 Projetar um PID com sintonia de Ziegler-Nichols baseada na resposta ao degrau em malha aberta (ganho último ou método de malha aberta).
