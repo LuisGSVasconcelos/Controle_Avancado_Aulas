@@ -19,21 +19,9 @@ Kp = 2.0  °C/(m³/h)
 
 ### Função de transferência:
 
-G(s) = 2.0
-5
-s
-+
-1
-e
-−
-2
-s
-G(s)= 
-5s+1
-2.0
-​
- e 
-−2s
+$$
+G(s)= \frac{2.0}{5s + 1}e^{-2s}
+$$
  
 ### Passos da Simulação
 Definir o modelo usando a biblioteca control (função tf e pade para aproximar o atraso).
