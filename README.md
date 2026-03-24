@@ -10,35 +10,16 @@ Parâmetros típicos:
 
 ### Ganho estático 
 Kp = 2.0  °C/(m³/h)
-K 
-p
-​
- =2.0°C/(m³/h)
 
-Constante de tempo 
-τ
-=
-5
- 
-min
-τ=5min
+### Constante de tempo 
+τ = 5 min
 
-Atraso de transporte 
-θ
-=
-2
- 
-min
-θ=2min
+### Atraso de transporte 
+θ = 2 min
 
-Função de transferência:
+### Função de transferência:
 
-G
-(
-s
-)
-=
-2.0
+G(s) = 2.0
 5
 s
 +
