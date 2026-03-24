@@ -10,6 +10,7 @@ st.markdown("""
 Esta aplicação demonstra as **limitações do controlador PID** quando aplicado a processos com atraso de transporte (*dead time*).  
 Utiliza um modelo FOPDT (primeira ordem com atraso) representando, por exemplo, um reator CSTR ou trocador de calor.  
 Você pode alterar os parâmetros do processo e do PID, ou usar a **sintonia automática de Ziegler‑Nichols**.
+Autor: Luis Vasconcelos em 24/03/2026                
 """)
 
 # --- Sidebar para parâmetros do processo ---
