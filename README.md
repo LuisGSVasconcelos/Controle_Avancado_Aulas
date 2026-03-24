@@ -9,7 +9,9 @@ Utilizaremos um modelo linearizado de primeira ordem com atraso (FOPDT) represen
 ###Parâmetros típicos:
 
 #### Ganho estático 
+$$
 Kp = 2.0  °C/(m³/h)
+$$
 
 #### Constante de tempo 
 τ = 5 min
