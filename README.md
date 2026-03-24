@@ -33,8 +33,8 @@ $$
 
 ✅ Definir o modelo usando a biblioteca control (função tf e pade para aproximar o atraso).
 
-Projetar um PID com sintonia de Ziegler-Nichols baseada na resposta ao degrau em malha aberta (ganho último ou método de malha aberta).
+✅ Projetar um PID com sintonia de Ziegler-Nichols baseada na resposta ao degrau em malha aberta (ganho último ou método de malha aberta).
 
-Simular a malha fechada para uma mudança de setpoint e para uma perturbação na carga (ex.: aumento na temperatura de alimentação).
+✅ Simular a malha fechada para uma mudança de setpoint e para uma perturbação na carga (ex.: aumento na temperatura de alimentação).
 
-Analisar overshoot, tempo de acomodação, erro em regime e comportamento oscilatório devido ao atraso.
+✅ Analisar overshoot, tempo de acomodação, erro em regime e comportamento oscilatório devido ao atraso.
