@@ -38,3 +38,11 @@ $$
 ✅ Simular a malha fechada para uma mudança de setpoint e para uma perturbação na carga (ex.: aumento na temperatura de alimentação).
 
 ✅ Analisar overshoot, tempo de acomodação, erro em regime e comportamento oscilatório devido ao atraso.
+
+### Análise dos Resultados
+
+- Observa-se overshoot elevado e possíveis oscilações devido ao atraso.
+
+- Se o atraso for aumentado para 4 minutos, o sistema pode se tornar instável com os mesmos ganhos.
+
+- Discussão: o PID não consegue “enxergar” o futuro; o atraso força o controlador a reagir tardiamente, prejudicando a estabilidade.
