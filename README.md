@@ -1,4 +1,4 @@
-# Controle_Avancado_Aulas
+# 🚀 Controle Avancado: Aula 01
 Repositório da disciplina Controle Avançado de Processos no Programa de Pós-Graduação em Engenharia Quimica
 
 ## Atividade Prática em Python (40 min)
