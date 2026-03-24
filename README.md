@@ -1,7 +1,7 @@
 # Controle_Avancado_Aulas
 Repositório da disciplina Controle Avançado de Processos no Programa de Pós-Graduação em Engenharia Quimica
 
-Atividade Prática em Python (40 min)
+## Atividade Prática em Python (40 min)
 Cenário: Controle de Temperatura de um CSTR com Atraso
 Utilizaremos um modelo linearizado de primeira ordem com atraso (FOPDT) representando a dinâmica entre a vazão de fluido refrigerante e a temperatura do reator. Parâmetros típicos:
 
