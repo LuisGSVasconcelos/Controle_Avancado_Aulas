@@ -14,10 +14,14 @@ Kp = 2.0  \frac{°C}{(m³/h)}
 $$
 
 #### Constante de tempo 
+$$
 τ = 5 min
+$$
 
 #### Atraso de transporte 
+$$
 θ = 2 min
+$$
 
 ### Função de transferência:
 
