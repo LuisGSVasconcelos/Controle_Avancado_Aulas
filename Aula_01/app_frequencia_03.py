@@ -80,7 +80,7 @@ if simulate or "first_run" not in st.session_state:
     ax_step.grid(True, alpha=0.3)
     ax_step.legend(loc='upper right')
     ax_step.set_xlim([0, 50])
-    ax_step.set_ylim([0, max(1.5, max(y_out) * 1.1)])
+    ax_step.set_ylim([min(-1.0, min(y_out) * 0.9), max(1.5, max(y_out) * 1.1)])
     plt.tight_layout()
 
     # ========================= DIAGRAMA DE BODE =========================
