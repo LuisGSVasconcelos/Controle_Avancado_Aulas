@@ -16,12 +16,12 @@ Nc = 4
 nx, nu, ny = 2, 2, 2
 
 Q = np.diag([1.0, 1.0])      # peso erro
-R = np.diag([1.5, 1.5])      # peso movimento
+R = np.diag([0.1, 0.1])      # peso movimento
 
 u_min = np.array([0, 0])
 u_max = np.array([2, 2])
 du_min = np.array([-0.5, -0.5])
-du_max = np.array([0.05, 0.05])
+du_max = np.array([0.5, 0.5])
 y_min = np.array([0, 0])
 y_max = np.array([3, 3])      
 
